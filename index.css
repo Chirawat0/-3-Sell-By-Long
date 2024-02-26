@@ -1,3 +1,6 @@
+body {
+    font-family:"Poppins",sans-serif;
+}
 *{
     padding: 0;
     margin: 0;
@@ -42,154 +45,31 @@
     color: #fff;
     text-decoration: none;
   }
+  
+  .name1 {
+    font-size: 30px;
+    font-weight:800;
+    padding: 50px;
+  }
 
-  .taka {
+  .text_1 {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-left: 250px;
-    max-width: 680px;
-  }
-
-  .sinkawoi {
-    display: flex;
-    margin-top: 20px;
-  }
-  .sinka_text {
-    display: flex;
-  }
-
-  #price {
     margin-left: 100px;
+    max-width: 1300px;
+    padding: 40px;
+    font-size: 15px;
+  }
+
+  .maimee {
+    text-align: center;
+    padding-top: 80px;
     font-weight: bolder;
   }
-  
-  #one {
-    padding-top: 10px;
-  }
 
-  #two {
-    padding-top: 10px;
-  }
-
-  #three {
-    padding-top: 10px;
-  }
-
-  #four {
-    padding-top: 10px;
-  }
-
-  .img1 {
-    padding-top: 10px;
-  }
-  .maimee {
-    top: 10px;
-  
-  }
-  .yodromyoi {
-    margin-left: 210px;
-    display: flex;
-    justify-content: space-between;
-    max-width: 200px;
-  }
-  
-  .katam {
-    margin-left: 210px;
-    display: flex;
-    justify-content: space-between;
-    max-width: 200px;
-    margin-top: 20px;
-    border-bottom-style: inset;
-    padding-bottom: 15px;
-  }
-  
-  .yodrom {
-    margin-left: 210px;
-    display: flex;
-    justify-content: space-between;
-    max-width: 200px;
-    border-bottom-style: inset;
-    margin-top: 20px;
-    padding-bottom: 10px;
-  }
-  
-  .checkout {
-    margin-left: 230px;
-    margin-top: 20px;
-    background-color: #d9d9d9;
-    border: 1px solid #d5d9d9;
-    border-radius: 8px;
-    box-shadow: rgba(146, 149, 149, 0.5) 0 2px 5px 0;
-    box-sizing: border-box;
-    cursor: pointer;
-    display:inline-block;
-    padding: 10px;
-    touch-action: manipulation;
-  }
-
-  .raikan {
-    margin-top: 60px;
-    margin-left: 20px;
-  }
-
-  .img1 {
-    margin-left: 100px;
-  }
-  
-  .deviate {
-    float: right;
-  }
-  
-  #price1 {
-    float: right;
-    padding: 10px;
-  }
-  
-  .text_TT {
-    margin-top: 1px;
-  }
-  
-  #taka {
-    background-color: #fff;
-    border: 1px solid #d5d9d9;
-    border-radius: 8px;
-    box-shadow: rgba(146, 149, 149, 0.5) 0 2px 5px 0;
-    box-sizing: border-box;
-    cursor: pointer;
-    display:inline-block;
-    padding: 10px;
-    touch-action: manipulation;
-    margin-top: 15px;
-  }
-  .flexplease {
-    display: flex;
-  }
-  
-  #scroll {
-    display: flex;
-  }
-  .text_plus {
-    color: #D9D9D9;
-    border-top: 2px solid #D9D9D9;
-    padding-top: 20px;
-    margin-left: 90px;
-    margin-bottom: 20px;
-  }
-  .text_like {
-    font-weight: bold;
-    font-size: 24px;
-    margin-left: 50px;
-    margin-top: 10px;
-  }
-  
-  .flex_like {
-    display: flex;
-    gap: 25px;
-    margin-left: 50px;
-    margin-top: 20px;
-    justify-content: space-between;
-    max-width: 1500px;
+  .messege {
+    text-align: center;
+    padding-bottom: 170px;
   }
 
   .all {
