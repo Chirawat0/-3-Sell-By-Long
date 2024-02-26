@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  
+  nav {
+    width: 100%;
+    height: 100px;
+    background: #000;
+  }
+  
+  .container {
+    max-width:80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    margin: auto;   
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-pojeck{
+    width: 5vw;
+    object-fit: contain;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .menu li{
+    margin: 10px;
+  }
+  
+  .menu li a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .taka {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 250px;
+    max-width: 680px;
+  }
+
+  .sinkawoi {
+    display: flex;
+    margin-top: 20px;
+  }
+  .sinka_text {
+    display: flex;
+  }
+
+  #price {
+    margin-left: 100px;
+    font-weight: bolder;
+  }
+  
+  #one {
+    padding-top: 10px;
+  }
+
+  #two {
+    padding-top: 10px;
+  }
+
+  #three {
+    padding-top: 10px;
+  }
+
+  #four {
+    padding-top: 10px;
+  }
+
+  .img1 {
+    padding-top: 10px;
+  }
+  .maimee {
+    top: 10px;
+  
+  }
+  .yodromyoi {
+    margin-left: 210px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+  }
+  
+  .katam {
+    margin-left: 210px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    margin-top: 20px;
+    border-bottom-style: inset;
+    padding-bottom: 15px;
+  }
+  
+  .yodrom {
+    margin-left: 210px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    border-bottom-style: inset;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .checkout {
+    margin-left: 230px;
+    margin-top: 20px;
+    background-color: #d9d9d9;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(146, 149, 149, 0.5) 0 2px 5px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display:inline-block;
+    padding: 10px;
+    touch-action: manipulation;
+  }
+
+  .raikan {
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+
+  .img1 {
+    margin-left: 100px;
+  }
+  
+  .deviate {
+    float: right;
+  }
+  
+  #price1 {
+    float: right;
+    padding: 10px;
+  }
+  
+  .text_TT {
+    margin-top: 1px;
+  }
+  
+  #taka {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(146, 149, 149, 0.5) 0 2px 5px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    display:inline-block;
+    padding: 10px;
+    touch-action: manipulation;
+    margin-top: 15px;
+  }
+  .flexplease {
+    display: flex;
+  }
+  
+  #scroll {
+    display: flex;
+  }
+  .text_plus {
+    color: #D9D9D9;
+    border-top: 2px solid #D9D9D9;
+    padding-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+  }
+  .text_like {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  
+  .flex_like {
+    display: flex;
+    gap: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+    justify-content: space-between;
+    max-width: 1500px;
+  }
+
+  .all {
+    background-color: #000;
+    color: #fff;
+    height: 200px;
+    width: 100%;
+    padding: 50px;
+  }
+
+  .text_2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-left: 200px;
+  }
+
+  .judpai {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-left: 200px;
+    margin-top: 15px;
+  }
+
+  .img {
+    cursor: pointer;;
+  }
+
+  /* head */
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+nav {
+  width: 100%;
+  height: 100px;
+  background: #000;
+}
+
+.container {
+  max-width:80%;
+  height: 100px ;
+  margin: auto;
+  display: flex;
+  margin: auto;   
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-pojeck{
+  width: 5vw;
+  object-fit: contain;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.menu li{
+  margin: 10px;
+}
+
+.menu li a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-nav a.nav-link {
+  color: #ffffff;
+  font-size: 1.1em;
+}
+.dropdown-menu {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: none;
+  border-radius: 0;
+  padding: 0.7em;
+}
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+  }
+  .dropdown-menu.show {
+    display: flex;
+  }
+}
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+.dropdown-menu li .dropdown-item {
+  color: gray;
+  font-size: 1em;
+  padding: 0.5em 1em;
+}
+.dropdown-menu li .dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+.dropdown-menu li:first-child a {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.dropdown-menu li:first-child a:hover {
+  background-color: #f1f1f1;
+}
+@media only screen and (max-width: 992px) {
+  .dropdown-menu.show {
+    flex-wrap: wrap;
+    max-height: 350px;
+    overflow-y: scroll;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+  .dropdown:hover .dropdown-menu {
+    width: 40vw;
+    flex-wrap: wrap;
+  }
+
+
+}
+
+/* head */
+
+
+
+/* footer */
+
+footer{
+  background:#000000;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footer-bar{
+
+  display: flex;
+  max-width: 80%;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.Help{
+  width: 30%;
+  display:flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.contact{
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.footer-logo{
+  width: 10%;
+  margin: auto ;
+}
+
+/* footer */
