@@ -61,15 +61,32 @@ body {
     font-size: 15px;
   }
 
-  .maimee {
-    text-align: center;
-    padding-top: 80px;
-    font-weight: bolder;
+  .tao {
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
   }
 
+  .update {
+    display: flex;
+    margin-left: 10px;
+  }
+
+  #eiei {
+    color: red;
+  }
+
+  .read {
+    margin-right: 10px;
+  }
   .messege {
     text-align: center;
-    padding-bottom: 170px;
+    padding-top: 40px;
+  }
+  .messege2 {
+    padding: 80px;
+    text-align: center;
   }
 
   .all {
